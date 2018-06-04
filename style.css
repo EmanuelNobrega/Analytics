@@ -9,8 +9,8 @@ div #centro{
 #menu{
     float: left;
     width: 100%;
-    height: 40px;
-    background: #554db3;
+    height: 70px;
+    background: rgb(61, 55, 128);
     position: fixed;
 }
 
@@ -18,36 +18,66 @@ div #conteudo{
     float: left;
     width: 100%;
     height: 4000px;
-    background: #3d3780;
+    background: #332e73;
     margin-top: 1px;
 
 }
 
 #lateral{
-    background-color: #554db3;
-    width: 400px;
+    background-color: rgb(61, 55, 128);
+    width: 350px;
     height: 100%;
     position: fixed;
-    margin-top: 60px;
-    border-radius: 10px;
+    margin-top: 110px;
+    border-radius: 0 9px;
 }
 
-div .inform{
-    display: flex;
-    margin-top: 70px;
+div .opitions{
+    width: 100%;
+    height: 40px;
+    margin: 2px 0;
+    background-color: #2f296b;;
 
 }
 
-div .seg:first-child{
-    margin-left: 450px;
+div .group-right{
+    margin-top: 100px;
+    margin-left: 400px;
+    
+}
+.shadow{
+    box-shadow: rgb(52, 47, 110) 0px 3px 0px 0px, rgba(33, 7, 77, 0.5) 0px 4px 10px 0px;
     
 }
 
-div .resumo{
-    box-sizing: border-box;
-    background-color: #554db3;
+div .seg{
+    display: flex;
+}
+
+div .purple{
+    border-radius: 9px;
+    background-color: rgb(61, 55, 128);
+    
+}
+
+div .maior-gasto{
     width: 500px;
     height: 100px;
     margin: 10px;
-    border-radius: 10px;
+}
+
+div .dados{
+    display: flex;
+}
+
+div .temperatura{
+    width: 400px;
+    height: 500px;
+    margin: 10px;
+}
+
+div .humidade{
+    width: 600px;
+    height: 500px;
+    margin: 10px;
 }
