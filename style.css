@@ -46,7 +46,7 @@ div #conteudo{
 
 
 .container {
-    height: 492px;
+    height: 83.8%;
     overflow: auto;
     width: 100%;
     margin-right: 0;
@@ -58,6 +58,7 @@ div #conteudo{
 }
 .container::-webkit-scrollbar-thumb {
     background: #554db3;
+    border-radius: 3px;
 }
 
 div .opitions{
