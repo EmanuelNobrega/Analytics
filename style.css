@@ -1,108 +1,139 @@
-*{margin: 0; padding: 0;}
-body{background: #f4f4f4;}
+/*Frist Frame*/
 
-.shadow{
-    box-shadow: rgb(52, 47, 110) 0px 3px 0px 0px, rgba(33, 7, 77, 0.5) 0px 4px 10px 0px;
-    
+body{
+	margin: 0;
 }
-div #centro{
-    margin: 0px auto;
-    width: 100%;
-    background-color: #ccc;
+.one-purple{
+	display: flex;
+	flex-direction: column;
 }
 
-#menu{
-    float: left;
-    width: 100%;
-    height: 70px;
-    background: rgb(61, 55, 128);
-    position: fixed;
+/*Frist Part*/
+
+.one-orange{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
 }
 
-div #conteudo{
-    float: left;
-    width: 100%;
-    height: 4000px;
-    background: #332e73;
-    margin-top: 1px;
-
-}
- /*  bloco esquedo */
-
-#lateral{
-    background-color: #332e73;
-    width: 350px;
-    height: 100%;
-    position: fixed;
-    margin-top: 110px;
-    border-radius: 0 9px;
-    overflow: auto;
+.one-one-blue{
+	display: flex;
+	padding-left: 40px;
 }
 
-.title{
-    width: 70%;
-    margin-left: 15%; 
+.tipos{
+	margin: 2.5px;
+	color: black;
+	padding-left: 10px;
+	font-size: 22px;
+	font-family: 'Showcard Gothic', sans-serif;
 }
 
-
-.container {
-    height: 83.8%;
-    overflow: auto;
-    width: 100%;
-    margin-right: 0;
+.moresize{
+	font-size: 34.9px;
+	color: black;
+}
+.unline{
+	text-decoration: none;
 }
 
-
-.container::-webkit-scrollbar {
-    width: 5px;
-}
-.container::-webkit-scrollbar-thumb {
-    background: #554db3;
-    border-radius: 3px;
+.flex{
+	display: flex;
 }
 
-div .opitions{
-    width: 100%;
-    height: 60px;
-    background-color: rgb(61, 55, 128);
-    margin: 2px;
-
+.barra{
+	border-left: 4px solid gainsboro;
+	border-right: 4px solid gainsboro;
+	color: black;
+	padding: 12px  36em 12px 10em ;
+	margin-left: 50px;
+	border-top: 4px solid gainsboro;
+	border-bottom: 4px solid gainsboro;
+	color: gray;
 }
 
-div .group-right{
-    margin-top: 100px;
-    margin-left: 400px;
-    
+.search{
+	background-color: red;
+	color: white;
+	padding: 14px;
+	font-size: 25px;
 }
 
-div .seg{
-    display: flex;
+.Debug{
+	margin: 15px;
 }
 
-div .purple{
-    border-radius: 9px;
-    background-color: rgb(61, 55, 128);
-    
+.inscrever{
+	padding-right: 50px;
+	font-family: 'Showcard Gothic', sans-serif;
+	font-size: 15px;
+	color: black;
 }
 
-div .maior-gasto{
-    width: 500px;
-    height: 100px;
-    margin: 10px;
+/*Second Part*/
+
+.two-orange{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	background-image: url(lol.jpg);
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	font-family:'Showcard Gothic', sans-serif;
+}
+.two-one-blue{
+	color: white;
+	text-align: center;
+	margin-top: 4em;
+	margin-bottom: 1em;
+	font-size: 32px;
 }
 
-div .dados{
-    display: flex;
+.two-one-blue p{
+	font-family: "Leelawadee UI", sans-serif;
+	font-size: 22px;
+	font-weight: bold;
 }
 
-div .temperatura{
-    width: 400px;
-    height: 500px;
-    margin: 10px;
+.bordinha{
+	margin-bottom: 100px;
+	margin-top: 5px;
+	padding: 25px 55px;
+	background-color: red;
+	color: white;
 }
 
-div .humidade{
-    width: 600px;
-    height: 500px;
-    margin: 10px;
+/*End*/
+
+/*Second Frame*/
+
+.two-purple{
+	display: flex;
+	justify-content: center;
 }
+
+.space{
+	margin-left: 3em;
+	margin-right: 3em;
+	margin-top: 4em;
+	margin-bottom: 7em;
+	justify-content: center;
+}
+
+.squad{
+	border: 8px solid gray;
+	margin-bottom: 1em;
+	margin-top: 75px;
+}
+
+.fy{
+	width: 24em;
+	height: 135px;
+}
+
+/*End*/
+
+/*Third-Frame*/
+
